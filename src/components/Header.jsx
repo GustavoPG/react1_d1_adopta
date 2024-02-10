@@ -1,4 +1,4 @@
-import '/src/css/header.css';
+import '/src/assets/css/header.css';
 
 //Componente Header
 const Header = ({ title }) => {

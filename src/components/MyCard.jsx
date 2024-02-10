@@ -1,7 +1,7 @@
 import MyBadge from "./Tags";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import '/src/css/MyCard.css';
+import '/src/assets/css/MyCard.css';
 
 //Componente Card
 const MyCard = ({ myCardSrc, myCardName, myCardDescription, textBadge, colorBadge }) => {
