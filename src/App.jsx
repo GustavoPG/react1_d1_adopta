@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Header from "./Header";
-import MyCard from "./MyCard";
-import Footer from "./Footer";
+import Header from "./components/Header";
+import MyCard from "./components/MyCard";
+import Footer from "./components/Footer";
 
 function App() {
 
