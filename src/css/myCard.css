@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Asap:wght@400;500&display=swap');
+
+.card:hover {
+    /* Agrega una sombra cuando se pasa el cursor sobre la tarjeta */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Hace que la tarjeta aumente ligeramente de tamaño */
+    transform: scale(1.2);
+    cursor: grab;
+}
+
+/* Estilos adicionales para hacer la transición más suave */
+.card {
+    font-family: 'Alegreya', serif;
+    font-family: 'Asap', sans-serif;
+    /* Transición suave de todos los estilos durante 0.4 segundos */
+    transition: all 0.4s ease;
+}
